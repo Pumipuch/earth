@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <>
-      <Header name="Passakon Puttasuwan"/>
+      <Header name="EARTH_ZA"/>
 
       <Nav />
 
@@ -18,10 +18,10 @@ export default function Home() {
             <p className="text-center">earth</p>
           </div>
           <div className="col-span-2">
-            <p>eeee</p>
+            <p>About</p>
           </div>
           <div>
-            <p>eeee</p>
+            <p>statistics</p>
           </div>
         </div>
       </div>
