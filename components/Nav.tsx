@@ -2,7 +2,7 @@ import { NavItem , NavItemProps } from "./NavItem"
 
 export const Nav = () => {
     const navItem: NavItemProps[] = [
-        { href: '#', text: 'Profile' },
+        { href: 'card', text: 'Profile' },
         { href: '#', text: 'about' },
         { href: '#', text: 'friend' }
     ]

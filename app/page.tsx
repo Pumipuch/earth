@@ -1,13 +1,12 @@
-"use client"
-
 import { Nav } from "@/components/Nav";
 import { Header } from "@/components/Header";
+import { Card } from "@/components/Card";
 
 export default function Home() {
 
   return (
     <>
-      <Header name="EARTH_ZA"/>
+      <Header name="EARTH_ZA" href="card"/>
 
       <Nav />
 
