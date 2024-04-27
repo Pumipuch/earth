@@ -1,7 +1,6 @@
-import { CardVal, CardValProps } from "./CardVal"
 
 export interface CardProps {
-    data: string
+    data: any
 }
 
 export const Card = ({ data }: CardProps) => {
