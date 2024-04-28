@@ -6,7 +6,7 @@ export interface CardProps {
 export const Card = ({ data }: CardProps) => {
     return (
         <div>
-            {data.map(val => (
+            {data.map((val:any) => (
                 <div key={val.id}>
                     <img src={val.img} alt="" />
                     <p>Name : {val.name}</p>
